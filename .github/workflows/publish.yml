@@ -1,0 +1,43 @@
+name: clend-protocol-cpi
+
+on:
+  push:
+    branches:
+      - '*'
+    paths:
+      - 'clend-protocol-cpi/**'
+
+jobs:
+  build:
+    concurrency:
+      group: build-${{ github.ref }} # allow 1 build per branch at a time
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./clend-protocol-cpi
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+          override-file: rust-toolchain 
+
+      - name: Run fmt
+        run: cargo fmt -- --check
+
+      - name: Publish crates
+        uses: katyo/publish-crates@v2
+        with:
+          path: ./clend-protocol-cpi
+          registry-token: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+          dry-run: ${{ github.ref != 'refs/heads/main' }}
+
+      - name: Run publish script
+        run: |
+          echo "Publishing changes..."
