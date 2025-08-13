@@ -27,9 +27,12 @@ jobs:
           toolchain: stable
           override: true
           override-file: rust-toolchain 
+        
+      - name: Build
+        run: make
 
-      - name: Run fmt
-        run: cargo fmt -- --check
+      - name: Check Formatting
+        run: make fmt_check
 
       - name: Publish crates
         uses: katyo/publish-crates@v2
@@ -37,7 +40,3 @@ jobs:
           path: ./clend-protocol-cpi
           registry-token: ${{ secrets.CARGO_REGISTRY_TOKEN }}
           dry-run: ${{ github.ref != 'refs/heads/main' }}
-
-      - name: Run publish script
-        run: |
-          echo "Publishing changes..."

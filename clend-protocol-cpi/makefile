@@ -8,6 +8,9 @@ build:
 fmt:
 	cargo fmt
 
+fmt_check:
+	cargo fmt --check
+
 clean:
 	cargo clean
 
