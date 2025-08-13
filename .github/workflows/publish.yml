@@ -27,9 +27,31 @@ jobs:
           toolchain: stable
           override: true
           override-file: rust-toolchain 
+      
+      - name: Install Solana
+        run: sh -c "$(curl -sSfL https://release.anza.xyz/v2.3.5/install)"
 
-      - name: Run fmt
-        run: cargo fmt -- --check
+      - name: Install Anchor Dependencies
+        run: sudo apt-mark hold grub-efi-amd64-signed && sudo apt-get update && sudo apt-get upgrade && sudo apt-get install -y pkg-config build-essential libudev-dev
+
+      - name: Install Anchor 0.31.1
+        run: npm i -g @coral-xyz/anchor-cli@0.31.1
+
+      - name: Set Environment
+        run: echo "/home/runner/.cargo/bin" >> $GITHUB_PATH && echo "/home/runner/.local/share/solana/install/active_release/bin" >> $GITHUB_PATH
+
+      - name: Create local keypair
+        run: |
+          solana --version
+          echo "Generating keypair..."
+          solana-keygen new -o "$HOME/.config/solana/id.json" --no-passphrase --silent --force
+        shell: bash
+        
+      - name: Build
+        run: make
+
+      - name: Check Formatting
+        run: make fmt_check
 
       - name: Publish crates
         uses: katyo/publish-crates@v2
@@ -37,7 +59,3 @@ jobs:
           path: ./clend-protocol-cpi
           registry-token: ${{ secrets.CARGO_REGISTRY_TOKEN }}
           dry-run: ${{ github.ref != 'refs/heads/main' }}
-
-      - name: Run publish script
-        run: |
-          echo "Publishing changes..."
