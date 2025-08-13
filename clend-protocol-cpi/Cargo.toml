@@ -1,10 +1,10 @@
 [package]
 name = "clend-protocol-cpi"
-version = "0.1.1"
-description = "CPI Bindings for Clend Protocol"
+version = "0.1.2"
+description = "CPI Bindings for Carrot Lend Protocol"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/DeFi-Clend/clend-protocol-cpi"
+repository = "https://github.com/DeFi-Carrot/clend-protocol-cpi"
 
 [features]
 default = ["cpi"]
