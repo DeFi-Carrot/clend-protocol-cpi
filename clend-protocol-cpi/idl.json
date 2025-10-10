@@ -1170,11 +1170,6 @@
           "isSigner": false
         },
         {
-          "name": "rent",
-          "isMut": false,
-          "isSigner": false
-        },
-        {
           "name": "systemProgram",
           "isMut": false,
           "isSigner": false
@@ -3923,8 +3918,5 @@
       "name": "InvalidTokenProgram",
       "msg": "Invalid token program"
     }
-  ],
-  "metadata": {
-    "address": "C73nDAFn23RYwiFa6vtHshSbcg8x6BLYjw3bERJ3vHxf"
-  }
+  ]
 }
