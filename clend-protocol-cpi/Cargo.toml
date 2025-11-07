@@ -1,6 +1,6 @@
 [package]
 name = "clend-protocol-cpi"
-version = "0.1.4"
+version = "0.1.5"
 description = "CPI Bindings for Carrot Lend Protocol"
 edition = "2021"
 license = "MIT"
@@ -16,3 +16,5 @@ cpi = ["no-entrypoint"]
 [dependencies]
 anchor-gen = "0.3.1"
 anchor-lang = "0.32.1"
+fixed-macro = "=1.2"
+fixed = "=1.23.1"
