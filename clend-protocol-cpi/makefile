@@ -16,4 +16,3 @@ clean:
 
 doc:
 	cargo doc --open
-

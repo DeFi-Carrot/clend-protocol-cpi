@@ -24,6 +24,16 @@
           "name": "systemProgram",
           "isMut": false,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": []
@@ -40,6 +50,16 @@
           "name": "admin",
           "isMut": false,
           "isSigner": true
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": [
@@ -128,6 +148,16 @@
           "name": "systemProgram",
           "isMut": false,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": [
@@ -162,6 +192,16 @@
           "name": "bank",
           "isMut": true,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": [
@@ -190,6 +230,16 @@
           "name": "bank",
           "isMut": true,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": [
@@ -217,6 +267,16 @@
         {
           "name": "bank",
           "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
           "isSigner": false
         }
       ],
@@ -404,6 +464,16 @@
           "name": "tokenProgram",
           "isMut": false,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": []
@@ -436,6 +506,16 @@
         },
         {
           "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
           "isMut": false,
           "isSigner": false
         }
@@ -477,6 +557,16 @@
         },
         {
           "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
           "isMut": false,
           "isSigner": false
         }
@@ -527,6 +617,16 @@
         },
         {
           "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
           "isMut": false,
           "isSigner": false
         }
@@ -590,6 +690,16 @@
           "name": "tokenProgram",
           "isMut": false,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": [
@@ -645,6 +755,16 @@
         },
         {
           "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
           "isMut": false,
           "isSigner": false
         }
@@ -729,6 +849,16 @@
           "name": "tokenProgram",
           "isMut": false,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": []
@@ -804,6 +934,16 @@
           "name": "tokenProgram",
           "isMut": false,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": [
@@ -867,6 +1007,16 @@
           "name": "bank",
           "isMut": true,
           "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
+          "isSigner": false
         }
       ],
       "args": []
@@ -920,6 +1070,16 @@
         },
         {
           "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
           "isMut": false,
           "isSigner": false
         }
@@ -1170,6 +1330,11 @@
           "isSigner": false
         },
         {
+          "name": "rent",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
           "name": "systemProgram",
           "isMut": false,
           "isSigner": false
@@ -1369,6 +1534,16 @@
         {
           "name": "stakedSettings",
           "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "eventAuthority",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "program",
+          "isMut": false,
           "isSigner": false
         }
       ],
@@ -3062,6 +3237,111 @@
           "name": "mint",
           "type": "publicKey",
           "index": false
+        },
+        {
+          "name": "assetWeightInit",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "assetWeightMaint",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "liabilityWeightInit",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "liabilityWeightMaint",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "depositLimit",
+          "type": "u64",
+          "index": false
+        },
+        {
+          "name": "borrowLimit",
+          "type": "u64",
+          "index": false
+        },
+        {
+          "name": "operationalState",
+          "type": "u8",
+          "index": false
+        },
+        {
+          "name": "riskTier",
+          "type": "u8",
+          "index": false
+        },
+        {
+          "name": "assetTag",
+          "type": "u8",
+          "index": false
+        },
+        {
+          "name": "totalAssetValueInitLimit",
+          "type": "u64",
+          "index": false
+        },
+        {
+          "name": "oracleMaxAge",
+          "type": "u16",
+          "index": false
+        },
+        {
+          "name": "permissionlessBadDebtSettlement",
+          "type": "bool",
+          "index": false
+        },
+        {
+          "name": "freezeSettings",
+          "type": "bool",
+          "index": false
+        },
+        {
+          "name": "optimalUtilizationRate",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "plateauInterestRate",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "maxInterestRate",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "insuranceFeeFixedApr",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "insuranceIrFee",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "protocolFixedFeeApr",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "protocolIrFee",
+          "type": "f64",
+          "index": false
+        },
+        {
+          "name": "protocolOriginationFee",
+          "type": "f64",
+          "index": false
         }
       ]
     },
@@ -3086,9 +3366,93 @@
           "index": false
         },
         {
-          "name": "config",
+          "name": "assetWeightInit",
           "type": {
-            "defined": "BankConfigOpt"
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "assetWeightMaint",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "liabilityWeightInit",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "liabilityWeightMaint",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "depositLimit",
+          "type": {
+            "option": "u64"
+          },
+          "index": false
+        },
+        {
+          "name": "borrowLimit",
+          "type": {
+            "option": "u64"
+          },
+          "index": false
+        },
+        {
+          "name": "operationalState",
+          "type": {
+            "option": "u8"
+          },
+          "index": false
+        },
+        {
+          "name": "riskTier",
+          "type": {
+            "option": "u8"
+          },
+          "index": false
+        },
+        {
+          "name": "assetTag",
+          "type": {
+            "option": "u8"
+          },
+          "index": false
+        },
+        {
+          "name": "totalAssetValueInitLimit",
+          "type": {
+            "option": "u64"
+          },
+          "index": false
+        },
+        {
+          "name": "oracleMaxAge",
+          "type": {
+            "option": "u16"
+          },
+          "index": false
+        },
+        {
+          "name": "permissionlessBadDebtSettlement",
+          "type": {
+            "option": "bool"
+          },
+          "index": false
+        },
+        {
+          "name": "freezeSettings",
+          "type": {
+            "option": "bool"
           },
           "index": false
         }
@@ -3115,9 +3479,58 @@
           "index": false
         },
         {
-          "name": "config",
+          "name": "optimalUtilizationRate",
           "type": {
-            "defined": "InterestRateConfigOpt"
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "plateauInterestRate",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "maxInterestRate",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "insuranceFeeFixedApr",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "insuranceIrFee",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "protocolFixedFeeApr",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "protocolIrFee",
+          "type": {
+            "option": "f64"
+          },
+          "index": false
+        },
+        {
+          "name": "protocolOriginationFee",
+          "type": {
+            "option": "f64"
           },
           "index": false
         }
@@ -3135,6 +3548,11 @@
         },
         {
           "name": "bank",
+          "type": "publicKey",
+          "index": false
+        },
+        {
+          "name": "mint",
           "type": "publicKey",
           "index": false
         },
@@ -3918,5 +4336,8 @@
       "name": "InvalidTokenProgram",
       "msg": "Invalid token program"
     }
-  ]
+  ],
+  "metadata": {
+    "address": "C73nDAFn23RYwiFa6vtHshSbcg8x6BLYjw3bERJ3vHxf"
+  }
 }
