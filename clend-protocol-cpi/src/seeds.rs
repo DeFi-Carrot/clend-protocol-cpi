@@ -15,3 +15,5 @@ pub const FEE_STATE_SEED: &'static [u8] = b"fee_state";
 pub const EMISSIONS_AUTHORITY_SEED: &'static [u8] = b"emissions_auth_seed";
 
 pub const EMISSIONS_TOKEN_ACCOUNT_SEED: &'static [u8] = b"emissions_token_account_seed";
+
+pub const EVENT_AUTHORITY_SEED: &'static [u8] = b"__event_authority";
